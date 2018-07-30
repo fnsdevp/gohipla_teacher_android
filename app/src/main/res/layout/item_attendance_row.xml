@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/m70"
+    android:layout_marginBottom="@dimen/m5"
+    android:background="@color/row_color"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/ll_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_profile_pic"
+            android:layout_width="@dimen/m60"
+            android:layout_height="@dimen/m60"
+            android:background="@drawable/black_btn"
+            android:layout_margin="@dimen/m10"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:gravity="left"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_larg"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@+id/ll_profile_pic"
+        android:layout_toLeftOf="@+id/iv_attendance_status"
+        android:layout_centerVertical="true"/>
+
+    <com.fnspl.hiplaedu_teacher.widget.SquareImageLayout
+        android:id="@+id/iv_attendance_status"
+        android:layout_width="@dimen/m70"
+        android:layout_height="@dimen/m70"
+        android:background="@drawable/green_button_small_radius"
+        android:textSize="@dimen/text_medium"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/m5"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/absent"
+        android:scaleType="fitXY"
+        android:padding="@dimen/m15"/>
+
+</RelativeLayout>

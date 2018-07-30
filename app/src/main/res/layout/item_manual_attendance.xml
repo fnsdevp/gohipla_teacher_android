@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/m70"
+    android:layout_marginBottom="@dimen/m5"
+    android:background="@color/row_color"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_profile_pic"
+            android:layout_width="@dimen/m60"
+            android:layout_height="@dimen/m60"
+            android:background="@drawable/black_btn"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:text="Student Name"
+        android:gravity="left"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_larg"
+        android:layout_gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/btn_request_received"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/m35"
+        android:layout_weight="35"
+        android:background="@drawable/atten_btn_selector"
+        android:textSize="@dimen/text_medium"
+        android:text="@string/attendance"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/m5"/>
+
+</LinearLayout>

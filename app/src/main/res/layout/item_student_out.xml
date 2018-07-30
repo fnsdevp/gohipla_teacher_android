@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/m70"
+    android:layout_marginBottom="@dimen/m5"
+    android:background="@color/row_color"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_profile_pic"
+            android:layout_width="@dimen/m60"
+            android:layout_height="@dimen/m60"
+            android:background="@drawable/black_btn" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="40"
+        android:gravity="left"
+        android:text="Avishek Mishra"
+        android:textColor="@color/textColorGray"
+        android:textSize="@dimen/text_larg" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/m5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_in_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10:15 AM"
+                android:textColor="@color/textColorGreen"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:id="@+id/tv_out_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10:30 AM"
+                android:textColor="@color/textColorRed"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_mark_absent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m35"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/atten_btn_selector"
+            android:text="@string/mark_absent"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_medium"
+            android:layout_marginTop="@dimen/m5"/>
+    </LinearLayout>
+
+</LinearLayout>

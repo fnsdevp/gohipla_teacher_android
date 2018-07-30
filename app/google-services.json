@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872011770432",
+    "firebase_url": "https://hiplaeduteacher.firebaseio.com",
+    "project_id": "hiplaeduteacher",
+    "storage_bucket": "hiplaeduteacher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872011770432:android:bede4127a4e285ba",
+        "android_client_info": {
+          "package_name": "com.fnspl.hiplaedu_teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872011770432-gpiso6a21529crbn9ljb6lcsmrat7384.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fnspl.hiplaedu_teacher",
+            "certificate_hash": "25b4a34d78a018840fc417e69ccea2cc4a8301ae"
+          }
+        },
+        {
+          "client_id": "872011770432-0pp2543b25ib6pjhhljl15vejsn0r1dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwY5hZXvmG_O79ToH6WIYLN0BBUWXyKdA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872011770432-0pp2543b25ib6pjhhljl15vejsn0r1dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="studentOutOfClass"
+            type="com.fnspl.hiplaedu_teacher.fragment.StudentsOutOfClassFragment" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editText_height"
+            android:background="@color/header_color">
+
+            <TextView
+                android:id="@+id/tv_class_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/m10"
+                android:text="Class Name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_extra_larg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_top"
+            android:padding="@dimen/m15"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_request_received"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/m40"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/blue_button"
+                android:textSize="@dimen/text_medium"
+                android:text="@string/request_received"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:layout_centerVertical="true"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/m55"
+                android:layout_toLeftOf="@+id/btn_request_received"
+                android:layout_marginRight="@dimen/m15"
+                android:weightSum="3"
+                android:layout_centerVertical="true">
+                <Button
+                    android:id="@+id/btn_present"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_button_small_radius"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_larg"
+                    android:text="5"
+                    android:layout_margin="@dimen/m2"/>
+                <Button
+                    android:id="@+id/btn_absent"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/yellow_button_small_radius"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_larg"
+                    android:text="2"
+                    android:layout_margin="@dimen/m2"/>
+                <Button
+                    android:id="@+id/btn_remains"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_btn"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_larg"
+                    android:text="50"
+                    android:layout_margin="@dimen/m2"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_95sdp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/color_hand" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_attendance_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_attendance"/>
+
+    </RelativeLayout>
+
+</layout>

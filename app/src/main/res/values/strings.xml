@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name1">Teacher</string>
+    <string name="app_name">Hipla Teacher</string>
+    <string name="class_start">CLASS_START</string>
+    <string name="enter_email_phone">Enter your email or phone</string>
+    <string name="enter_otp">Enter your OTP</string>
+    <string name="ok">OK</string>
+    <string name="otp_detail">You received an OTP on your phone or email, please enter your OTP here. If you do not receive your OTP,</string>
+    <string name="click_here_to_resend">Click Here to resend</string>
+    <string name="login">Login</string>
+    <string name="class_name">Class name : </string>
+    <string name="period_time">Lecture Time : </string>
+    <string name="total_students">Total Students : </string>
+    <string name="please_start_attendance">Please Start Attendance</string>
+    <string name="start">Start</string>
+    <string name="welcome_to_class">Welcome to the class</string>
+    <string name="routine">Routine</string>
+    <string name="report">Attendance Report</string>
+    <string name="manual_attendance">Manual Attendance</string>
+    <string name="request_received">Request Received</string>
+    <string name="attendance">Attendance</string>
+    <string name="mark_absent">Mark Absent</string>
+    <string name="subject">Subject : </string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+
+    <string name="subscription_key">5879c191c7c94e0c95fae48dd1b4389c</string>
+    <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+    <string name="dialog_msg">Please wait...</string>
+    <string name="end">End</string>
+    <string name="please_end_class">End your class session.</string>
+    <string name="leaving_class">Your lecture is over.</string>
+    <string name="enter_otp_on_phone">Enter the OTP sent to your phone</string>
+    <string name="wrong_otp">You have entered a wrong OTP.</string>
+    <string name="no_record_available">No records available</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="no_record_available_for_day">No records available for the day</string>
+    <string name="designation">Designation :</string>
+    <string name="department">Department :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="class_start_successfully">Class started successfully.</string>
+    <string name="permission_not_granted_coarse_location">The ACCESS_COARSE_LOCATION permission is needed to receive bluetooth scan results</string>
+    <string name="sneak_outs">Sneak Outs</string>
+    <string name="openHighAccurecyNavigation">Open High Accurecy Map</string>
+    <string name="openPowerSavingNavigation">Open Power Saving Map</string>
+    <string name="choseOption">Indoor Navigation Powered By Cisco CMX</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_info_available">No information available</string>
+    <string name="powered_by_cisco_cmx">Indoor Navigation Powered By Cisco CMX</string>
+    <string name="logging_in">You have successfully logged in</string>
+    <string name="zone_notification">You Are Near The Restricted Zone. Please Do Not Enter In Restricted Zone.</string>
+    <string name="wraning">Warning</string>
+    <string name="path_finder">Path Finder</string>
+    <string name="routine_not_running">This routine is not running correctly.</string>
+
+</resources>
